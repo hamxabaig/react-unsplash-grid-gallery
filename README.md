@@ -9,14 +9,14 @@ A grid to recreate the unsplash like gallery in react. This project is a rewrite
 Install from npm:
 
 ```js
-npm install react-unsplash-gallery-grid
+npm install react-unsplash-grid-gallery
 ```
 
 ## Usage
 
 
 ```js
-import UnsplashGallery from 'react-unsplash-gallery-grid';
+import UnsplashGallery from 'react-unsplash-grid-gallery';
 // rest of code omitted for the sake of this example
 // ...
 const images = [
