@@ -1,6 +1,6 @@
 {
   "name": "react-unsplash-grid-gallery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A unsplash like gallery grid in react.",
   "main": "build/index.js",
   "scripts": {
