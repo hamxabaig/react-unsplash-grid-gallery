@@ -16,7 +16,6 @@ class Gallery extends Component {
 
   componentWillMount() {
     const {images, columns = 2} = this.props;
-    console.log(columns);
 
     if (!images.length) {
       throw new Error('No [images] provided!');
@@ -26,9 +25,7 @@ class Gallery extends Component {
       throw new Error('[columns] should be less than [images] length');
     }
 
-    console.log(images, columns);
     this.state.grids = this.createGridColumns(images, columns);
-    console.log(this.state.grids);
   }
 
   createGridColumns(array, size) {
