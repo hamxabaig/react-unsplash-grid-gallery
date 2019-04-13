@@ -1,0 +1,17 @@
+.photo__wrapper {
+  margin-bottom: 3%;
+  position: relative;
+}
+.photo__wrapper  .photo__container {
+  position: relative;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.photo__wrapper .photo__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 5px;
+}

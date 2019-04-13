@@ -1,0 +1,16 @@
+.gallery {
+  width: 100%;
+} 
+
+.gallery:after {
+  content: '';
+  clear: both;
+  display: block;
+  width: 100%;
+}
+
+.gallery .gallery__grid-photos {
+  padding: 0.5%;
+  float: left;
+  display: inline-block;
+}

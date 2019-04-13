@@ -1,0 +1,54 @@
+{
+  "name": "react-unsplash-grid-gallery",
+  "version": "1.0.0",
+  "description": "A unsplash like gallery grid in react.",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base dist --port 8080 --color --progress --hot --inline",
+    "transpile": "babel src -d build --copy-files",
+    "prepublishOnly": "npm run transpile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamxabaig/react-unsplash-grid-gallery.git"
+  },
+  "author": "Hamza Baig<hamzabaig18@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hamxabaig/react-unsplash-grid-gallery/issues"
+  },
+  "homepage": "https://github.com/hamxabaig/react-unsplash-grid-gallery#readme",
+  "peerDependencies": {
+    "react": "^0.14.9 || ^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "axios": "^0.15.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "6.18.0",
+    "babel-loader": "6.2.7",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "6.18.0",
+    "babel-preset-react": "6.16.0",
+    "classnames": "^2.2.5",
+    "css-loader": "0.25.0",
+    "file-loader": "0.9.0",
+    "font-awesome": "^4.7.0",
+    "normalize.css": "5.0.0",
+    "postcss-loader": "^1.1.1",
+    "react": "15.3.2",
+    "react-dom": "15.3.2",
+    "react-waypoint": "^4.1.0",
+    "style-loader": "0.13.1",
+    "stylus": "0.54.5",
+    "stylus-loader": "2.3.1",
+    "url-loader": "0.5.7",
+    "webpack": "1.13.3",
+    "webpack-bundle-size-analyzer": "^2.2.0",
+    "webpack-dev-server": "1.16.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1"
+  }
+}
