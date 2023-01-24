@@ -2389,11 +2389,11 @@ is-plain-obj@^1.0.0:
 
 is-posix-bracket@^0.1.0:
   version "0.1.1"
-  resolved "http://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
+  resolved "https://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
 
 is-primitive@^2.0.0:
   version "2.0.0"
-  resolved "http://registry.npmjs.org/is-primitive/-/is-primitive-2.0.0.tgz#207bab91638499c07b2adf240a41a87210034575"
+  resolved "https://registry.npmjs.org/is-primitive/-/is-primitive-2.0.0.tgz#207bab91638499c07b2adf240a41a87210034575"
 
 is-property@^1.0.0:
   version "1.0.2"
@@ -3424,7 +3424,7 @@ regenerator-transform@^0.10.0:
 
 regex-cache@^0.4.2:
   version "0.4.3"
-  resolved "http://registry.npmjs.org/regex-cache/-/regex-cache-0.4.3.tgz#9b1a6c35d4d0dfcef5711ae651e8e9d3d7114145"
+  resolved "https://registry.npmjs.org/regex-cache/-/regex-cache-0.4.3.tgz#9b1a6c35d4d0dfcef5711ae651e8e9d3d7114145"
   dependencies:
     is-equal-shallow "^0.1.3"
     is-primitive "^2.0.0"
@@ -3860,8 +3860,9 @@ type-is@~1.6.13:
     mime-types "~2.1.13"
 
 ua-parser-js@^0.7.9:
-  version "0.7.12"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.12.tgz#04c81a99bdd5dc52263ea29d24c6bf8d4818a4bb"
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
+  integrity sha512-s8ax/CeZdK9R/56Sui0WM6y9OFREJarMRHqLB2EwkovemBxNQ+Bqu8GAsUnVcXKgphb++ghr/B2BZx4mahujPw==
 
 uglify-js@~2.7.3:
   version "2.7.4"
